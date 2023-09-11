@@ -9,3 +9,9 @@ signupBtn.onclick = function(){
     title.innerHTML = "Sign Up";
     nameField.style.display = "block";
 }
+
+//function for signin btn
+signinBtn.onclick = function(){
+    title.innerHTML = "Login";
+    nameField.style.display = "none";
+}
